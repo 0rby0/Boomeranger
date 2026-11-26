@@ -1,0 +1,59 @@
+Entity Prefabs
+Entity Controllers
+	• Player
+	• Projectiles
+		◦ Boomerang
+		◦ Bullet
+Entity Generation
+	• Projectile Throwing
+		◦ Boomerang Throwing
+		◦ Bullet Shooting
+Intractable Objects
+	• Items
+	• XP
+	• Stations
+Hub World
+Pause Menus
+	• Guides
+	• Upgrade Tree
+	• Goals Menu
+	• Map Menu
+	• Inventory Screen
+Upgrades
+Status Effects
+Main Menu
+Trophies
+Cosmetics
+Items
+	• Ardor Charge
+	• Spruce Juice Variants
+	• Ecto-Magnet
+	• Crypto-Stone
+Boomerang Slots
+Generating Map
+Chests
+Shops
+Environmental Hazards
+Entity Controllers 2:
+	• Enemies:
+		◦ Charger
+		◦ Chucker
+		◦ Chirper
+	• Bosses:
+		◦ Sheriff
+		◦ Knight
+		◦ Forest Ranger
+		◦ Glub
+		◦ Mammoth
+		◦ T-Rex
+		◦ Gorilla
+		◦ Witch
+		◦ Mega-Shark
+		◦ Mega-Shark 2
+		◦ Undead Boomeranger
+		◦ Master Boomeranger
+Entity Generation 2
+	• Entity Spawners
+Run End Screen
+Run Currency
+Run Extension

@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Boomeranger"
-config/features=PackedStringArray("4.8", "Forward Plus")
-config/icon="res://icon.svg"
+run/main_scene="uid://bvlelhub8sqw"
+config/features=PackedStringArray("4.8", "C#", "Forward Plus")
 
 [display]
 
