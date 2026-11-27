@@ -14,6 +14,7 @@ config/name="Boomeranger"
 config/version="0.0.0.0"
 run/main_scene="uid://cbuiopf47rnlr"
 config/features=PackedStringArray("4.8", "C#", "Forward Plus")
+config/icon="uid://btocp6udlmh02"
 
 [display]
 
