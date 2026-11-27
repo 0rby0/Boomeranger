@@ -1,8 +1,6 @@
 Entity Controllers
-	• Player
 	• Projectiles
 		◦ Boomerang
-		◦ Bullet
 Entity Generation
 	• Projectile Throwing
 		◦ Boomerang Throwing
