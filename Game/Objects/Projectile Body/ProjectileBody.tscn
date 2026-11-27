@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://c2kb484sjgl1a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1g071"]
+size = Vector2(18, 2)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oa8r7"]
+size = Vector2(2, 18)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bo3g2"]
+size = Vector2(2, 18)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ku08o"]
+size = Vector2(18, 2)
+
+[node name="Projectile Body" type="CharacterBody2D" unique_id=1265125845]
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=1083325200]
+
+[node name="Top Box" type="CollisionShape2D" parent="." unique_id=1335545527]
+position = Vector2(0, -10)
+shape = SubResource("RectangleShape2D_1g071")
+
+[node name="Left Box" type="CollisionShape2D" parent="." unique_id=605375506]
+position = Vector2(-10, 0)
+shape = SubResource("RectangleShape2D_oa8r7")
+
+[node name="Right Box" type="CollisionShape2D" parent="." unique_id=1833690608]
+position = Vector2(10, 0)
+shape = SubResource("RectangleShape2D_bo3g2")
+
+[node name="Bottom Box" type="CollisionShape2D" parent="." unique_id=494930444]
+position = Vector2(0, 10)
+shape = SubResource("RectangleShape2D_ku08o")

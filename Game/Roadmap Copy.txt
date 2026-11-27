@@ -1,4 +1,3 @@
-Entity Prefabs
 Entity Controllers
 	• Player
 	• Projectiles
