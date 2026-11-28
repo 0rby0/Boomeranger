@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "E:\\Boomeranger\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Boomeranger\\Game\\Objects\\Boomeranger Controller\\BoomerangerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Objects\\Boomeranger Controller\\BoomerangerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Boomeranger\\Game\\Objects\\Bullet Controller\\BulletController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Objects\\Bullet Controller\\BulletController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BoomerangController.cs",
               "DocumentMoniker": "E:\\Boomeranger\\Game\\Objects\\Boomerang Controller\\BoomerangController.cs",
               "RelativeDocumentMoniker": "Objects\\Boomerang Controller\\BoomerangController.cs",
@@ -34,33 +30,19 @@
               "RelativeToolTip": "Objects\\Boomerang Controller\\BoomerangController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-27T00:15:09.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-27T00:15:09.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BulletController.cs",
               "DocumentMoniker": "E:\\Boomeranger\\Game\\Objects\\Bullet Controller\\BulletController.cs",
               "RelativeDocumentMoniker": "Objects\\Bullet Controller\\BulletController.cs",
               "ToolTip": "E:\\Boomeranger\\Game\\Objects\\Bullet Controller\\BulletController.cs",
               "RelativeToolTip": "Objects\\Bullet Controller\\BulletController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-27T00:15:06.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BoomerangerController.cs",
-              "DocumentMoniker": "E:\\Boomeranger\\Game\\Objects\\Boomeranger Controller\\BoomerangerController.cs",
-              "RelativeDocumentMoniker": "Objects\\Boomeranger Controller\\BoomerangerController.cs",
-              "ToolTip": "E:\\Boomeranger\\Game\\Objects\\Boomeranger Controller\\BoomerangerController.cs",
-              "RelativeToolTip": "Objects\\Boomeranger Controller\\BoomerangerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-27T00:14:54.878Z",
               "EditorCaption": ""
             }
           ]

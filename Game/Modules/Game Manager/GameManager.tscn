@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bvlelhub8sqw"]
 
-[ext_resource type="Script" uid="uid://bcqugxehhirj7" path="res://Objects/Game Manager/GameManager.cs" id="1_jpwok"]
+[ext_resource type="Script" uid="uid://bcqugxehhirj7" path="res://Modules/Game Manager/GameManager.cs" id="1_jpwok"]
 
 [node name="Game Manager" type="Timer" unique_id=1350440698]
 script = ExtResource("1_jpwok")

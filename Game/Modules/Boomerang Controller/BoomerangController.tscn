@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bf0cg17l6ovft"]
 
-[ext_resource type="Script" uid="uid://c6h2kjylj8i1p" path="res://Objects/Boomerang Controller/BoomerangController.cs" id="1_l2w0m"]
+[ext_resource type="Script" uid="uid://c6h2kjylj8i1p" path="res://Modules/Boomerang Controller/BoomerangController.cs" id="1_l2w0m"]
 
 [node name="Boomerang Controller" type="Node" unique_id=989692020]
 script = ExtResource("1_l2w0m")
