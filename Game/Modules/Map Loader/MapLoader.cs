@@ -7,11 +7,18 @@ namespace Boomeranger
 {
 	public partial class MapLoader : Node
 	{
-		public MapLoader(Dictionary<Vector2, Tiles.Tile> map) 
+		public MapLoader(Dictionary<Vector2, Tiles.Tile> map, Node parent) 
 		{
+			Tiles t = new Tiles();
+
 			foreach (Vector2 position in map.Keys)
 			{
-				GD.Print(position);
+				MeshInstance3D tile = (MeshInstance3D)((PackedScene)GD.Load("res://Objects/Tile/Tile.tscn")).Instantiate();
+
+				tile.Position = new Vector3(position.X, 0, position.Y);
+
+				parent.CallDeferred("add_child", tile);
+				GD.Print(t.TileDetails[map[position]]);
 			}
 		}
 

@@ -1,11 +1,8 @@
 [gd_scene format=3 uid="uid://bvlelhub8sqw"]
 
 [ext_resource type="Script" uid="uid://bcqugxehhirj7" path="res://Modules/Game Manager/GameManager.cs" id="1_jpwok"]
-[ext_resource type="PackedScene" uid="uid://cbuiopf47rnlr" path="res://Test Scene.tscn" id="2_nyxfv"]
 
 [node name="Game Manager" type="Timer" unique_id=1350440698]
 script = ExtResource("1_jpwok")
-
-[node name="TestScene" parent="." unique_id=2100710895 instance=ExtResource("2_nyxfv")]
 
 [connection signal="timeout" from="." to="." method="TickUpdate"]
