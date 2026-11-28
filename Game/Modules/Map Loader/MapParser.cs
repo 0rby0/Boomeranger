@@ -2,29 +2,33 @@
 // Actual map loading is handled elsewhere to work with random map generation
 
 using Godot;
-using Godot.Collections;
-using System.IO;
+using System.Collections.Generic;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Boomeranger
 {
 	public partial class MapParser : Node
-    {
-        public static Dictionary<Vector2, Tiles.Tile> _map = [];
+	{
+		public Dictionary<Vector2, Tiles.Tile> Map = [];
 
-        MapParser(string mapPath)
-        { 
-            if (!Godot.FileAccess.FileExists(mapPath))
-            {
-                GD.Print("Map file doesn't exist");
-                return;
-            }
+		public MapParser(string mapPath)
+		{
+			if (!FileAccess.FileExists(mapPath))
+			{
+				GD.Print("Map file doesn't exist");
+				return;
+			}
 
-            using FileStream openStream = File.OpenRead(mapPath);
-            _map = JsonSerializer.Deserialize<Dictionary<Vector2, Tiles.Tile>>(openStream);
+			var mapFile = FileAccess.Open(mapPath, FileAccess.ModeFlags.Read);
+			string jsonString = mapFile.GetAsText();
 
-            GD.Print(_map);
-        }
+			var options = new JsonSerializerOptions();
+			options.Converters.Add(new Vector2JsonConverter());
+			options.Converters.Add(new JsonStringEnumConverter());
+
+			Map = JsonSerializer.Deserialize<Dictionary<Vector2, Tiles.Tile>>(jsonString, options) ?? [];
+		}
 
 	}
 }
