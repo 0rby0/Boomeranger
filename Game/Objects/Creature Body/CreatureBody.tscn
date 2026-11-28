@@ -1,14 +1,22 @@
 [gd_scene format=3 uid="uid://bt5uxn7cmwen5"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_mas5l"]
+[ext_resource type="Script" uid="uid://bqakx5ymjwld2" path="res://Objects/Creature Body/CreatureBody.cs" id="1_6320f"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_6320f"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mas5l"]
+load_path = "res://.godot/imported/No_Texture.png-e6711a53596634fa3a9574d03e8d9454.s3tc.ctex"
 
-[node name="Creature Body" type="CharacterBody2D" unique_id=57711753]
+[sub_resource type="BoxShape3D" id="BoxShape3D_6320f"]
+size = Vector3(0.5, 0.5, 0.5)
 
-[node name="Temp_Sprite" type="MeshInstance2D" parent="." unique_id=1297643129]
-scale = Vector2(20, 20)
-mesh = SubResource("BoxMesh_mas5l")
+[node name="Creature Body" type="CharacterBody3D" unique_id=746867762]
+script = ExtResource("1_6320f")
 
-[node name="Hitbox" type="CollisionShape2D" parent="." unique_id=1257553511]
-shape = SubResource("RectangleShape2D_6320f")
+[node name="TEMP Sprite" type="Sprite3D" parent="." unique_id=1777704576]
+pixel_size = 0.25
+billboard = 1
+double_sided = false
+texture_filter = 0
+texture = SubResource("CompressedTexture2D_mas5l")
+
+[node name="Hitbox" type="CollisionShape3D" parent="." unique_id=754610627]
+shape = SubResource("BoxShape3D_6320f")

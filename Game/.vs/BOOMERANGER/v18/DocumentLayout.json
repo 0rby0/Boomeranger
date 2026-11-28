@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\Boomeranger\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|e:\\boomeranger\\game\\modules\\map loader\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|solutionrelative:modules\\map loader\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|e:\\boomeranger\\game\\modules\\map loader\\tiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|solutionrelative:modules\\map loader\\tiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|e:\\boomeranger\\game\\modules\\game manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|solutionrelative:modules\\game manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|e:\\boomeranger\\game\\modules\\controllers\\boomeranger controller\\boomerangercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|solutionrelative:modules\\controllers\\boomeranger controller\\boomerangercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "E:\\Boomeranger\\Game\\Modules\\Game Manager\\GameManager.cs",
-              "RelativeDocumentMoniker": "Modules\\Game Manager\\GameManager.cs",
-              "ToolTip": "E:\\Boomeranger\\Game\\Modules\\Game Manager\\GameManager.cs",
-              "RelativeToolTip": "Modules\\Game Manager\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-28T02:27:30.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Tiles.cs",
-              "DocumentMoniker": "E:\\Boomeranger\\Game\\Modules\\Map Loader\\Tiles.cs",
-              "RelativeDocumentMoniker": "Modules\\Map Loader\\Tiles.cs",
-              "ToolTip": "E:\\Boomeranger\\Game\\Modules\\Map Loader\\Tiles.cs",
-              "RelativeToolTip": "Modules\\Map Loader\\Tiles.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-28T02:17:03.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MapLoader.cs",
-              "DocumentMoniker": "E:\\Boomeranger\\Game\\Modules\\Map Loader\\MapLoader.cs",
-              "RelativeDocumentMoniker": "Modules\\Map Loader\\MapLoader.cs",
-              "ToolTip": "E:\\Boomeranger\\Game\\Modules\\Map Loader\\MapLoader.cs",
-              "RelativeToolTip": "Modules\\Map Loader\\MapLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "BoomerangerController.cs",
+              "DocumentMoniker": "E:\\Boomeranger\\Game\\Modules\\Controllers\\Boomeranger Controller\\BoomerangerController.cs",
+              "RelativeDocumentMoniker": "Modules\\Controllers\\Boomeranger Controller\\BoomerangerController.cs",
+              "ToolTip": "E:\\Boomeranger\\Game\\Modules\\Controllers\\Boomeranger Controller\\BoomerangerController.cs",
+              "RelativeToolTip": "Modules\\Controllers\\Boomeranger Controller\\BoomerangerController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-28T02:16:02.332Z",
+              "WhenOpened": "2026-11-28T10:36:54.1Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ducl6neyx6ukt"]
 
-[ext_resource type="Script" uid="uid://chr5umaug68oi" path="res://Modules/Bullet Controller/BulletController.cs" id="1_bu3j7"]
+[ext_resource type="Script" uid="uid://chr5umaug68oi" path="res://Modules/Controllers/Bullet Controller/BulletController.cs" id="1_bu3j7"]
 
 [node name="Bullet Controller" type="Node" unique_id=470399304]
 script = ExtResource("1_bu3j7")

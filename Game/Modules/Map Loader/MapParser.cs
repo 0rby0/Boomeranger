@@ -10,25 +10,23 @@ namespace Boomeranger
 {
 	public partial class MapParser : Node
 	{
-		public Dictionary<Vector2, Tiles.Tile> Map = [];
+		public static Dictionary<Vector2, Tiles.Tile> Parse(string mapPath)
+        {
+            if (!FileAccess.FileExists(mapPath))
+            {
+                GD.Print("Map file doesn't exist");
+                return [];
+            }
 
-		public MapParser(string mapPath)
-		{
-			if (!FileAccess.FileExists(mapPath))
-			{
-				GD.Print("Map file doesn't exist");
-				return;
-			}
+            var mapFile = FileAccess.Open(mapPath, FileAccess.ModeFlags.Read);
+            string jsonString = mapFile.GetAsText();
 
-			var mapFile = FileAccess.Open(mapPath, FileAccess.ModeFlags.Read);
-			string jsonString = mapFile.GetAsText();
+            var options = new JsonSerializerOptions();
+            options.Converters.Add(new Vector2JsonConverter());
+            options.Converters.Add(new JsonStringEnumConverter());
 
-			var options = new JsonSerializerOptions();
-			options.Converters.Add(new Vector2JsonConverter());
-			options.Converters.Add(new JsonStringEnumConverter());
-
-			Map = JsonSerializer.Deserialize<Dictionary<Vector2, Tiles.Tile>>(jsonString, options) ?? [];
-		}
+            return JsonSerializer.Deserialize<Dictionary<Vector2, Tiles.Tile>>(jsonString, options) ?? [];
+        }
 
 	}
 }

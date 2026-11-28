@@ -15,11 +15,15 @@ namespace Boomeranger
 			{
 				MeshInstance3D tile = (MeshInstance3D)((PackedScene)GD.Load("res://Objects/Tile/Tile.tscn")).Instantiate();
 
-				tile.Position = new Vector3(position.X, 0, position.Y);
+				tile.Position = new Vector3(position.X, -1, position.Y);
 
 				parent.CallDeferred("add_child", tile);
-				GD.Print(t.TileDetails[map[position]]);
 			}
+
+			CharacterBody3D creature = (CharacterBody3D)(GD.Load<PackedScene>("res://Objects/Creature Body/CreatureBody.tscn")).Instantiate();
+            BoomerangerController playerController = new BoomerangerController();
+            ((CreatureBody)creature).SetController(playerController);
+			parent.CallDeferred("add_child", creature);
 		}
 
 	}

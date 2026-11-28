@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://2uc4n1di2r4l"]
-
-[ext_resource type="Script" uid="uid://d1sku8od673bb" path="res://Modules/Boomeranger Controller/BoomerangerController.cs" id="1_jlv25"]
-
-[node name="Boomeranger Controller" type="Node" unique_id=83108041]
-script = ExtResource("1_jlv25")

@@ -18,8 +18,7 @@ namespace Boomeranger
             Start();
 
             // Load a test map to check if things are working
-            MapParser mapParser = new MapParser("res://test_map.json");
-            new MapLoader(mapParser.Map, this);
+            new MapLoader(map: MapParser.Parse("res://test_map.json"), parent: this);
         }
 
         // Creates a global tick update that can be connected to by other objects

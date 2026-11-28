@@ -2,5 +2,12 @@
 
 [sub_resource type="BoxMesh" id="BoxMesh_nmjxp"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_um6h4"]
+
 [node name="Tile" type="MeshInstance3D" unique_id=1323242374]
 mesh = SubResource("BoxMesh_nmjxp")
+
+[node name="Hitbox" type="StaticBody3D" parent="." unique_id=264376140]
+
+[node name="Shape" type="CollisionShape3D" parent="Hitbox" unique_id=1369525914]
+shape = SubResource("BoxShape3D_um6h4")

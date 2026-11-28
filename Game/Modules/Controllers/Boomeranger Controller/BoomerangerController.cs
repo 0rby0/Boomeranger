@@ -2,13 +2,8 @@ using Godot;
 
 namespace Boomeranger
 {
-    public partial class BoomerangerController : Node
+    public partial class BoomerangerController : ControllerBase
     {
-        // Assign a body to control
-        [Export]
-        private CharacterBody2D body;
-
-
         // Player Health Variables
         private int _maxHealth = 10;
         private int _currentHealth = 10;
@@ -35,39 +30,35 @@ namespace Boomeranger
 
 
         // Player Input Handling
+        private float _speed = 1.0f;
         public override void _Process(double delta)
         {
-            // Send a message and don't try to parse movement if no body has been given to control
-            if (body is null)
-            {
-                GD.Print("Debug: Unassigned Body");
-                return;
-            }
-
             // Handle 2D movement
-            Vector2 velocity = new();
+            Vector3 velocity = new();
 
             if (Input.IsActionPressed("ui_up"))
             {
-                velocity.Y -= 1.0f;
+                velocity.Z -= _speed;
             }
 
             if (Input.IsActionPressed("ui_down"))
             {
-                velocity.Y += 1.0f;
+                velocity.Z += _speed;
             }
 
             if (Input.IsActionPressed("ui_left"))
             {
-                velocity.X -= 1.0f;
+                velocity.X -= _speed;
             }
 
             if (Input.IsActionPressed("ui_right"))
             {
-                velocity.X += 1.0f;
+                velocity.X += _speed;
             }
 
-            body.MoveAndCollide(velocity);
+            velocity.Y -= 0.1f;
+
+            _body.MoveAndCollide(velocity);
         }
 
     }
