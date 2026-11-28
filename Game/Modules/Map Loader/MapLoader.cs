@@ -20,10 +20,12 @@ namespace Boomeranger
 				parent.CallDeferred("add_child", tile);
 			}
 
+			// Place the player in the world at 0,0
 			CharacterBody3D creature = (CharacterBody3D)(GD.Load<PackedScene>("res://Objects/Creature Body/CreatureBody.tscn")).Instantiate();
             BoomerangerController playerController = new BoomerangerController();
             ((CreatureBody)creature).SetController(playerController);
 			parent.CallDeferred("add_child", creature);
+			creature.GetNode<Camera3D>("Creature Camera").MakeCurrent();
 		}
 
 	}

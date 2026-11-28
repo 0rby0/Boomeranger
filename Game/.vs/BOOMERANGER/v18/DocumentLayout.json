@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\Boomeranger\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|e:\\boomeranger\\game\\modules\\controllers\\boomeranger controller\\boomerangercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|solutionrelative:modules\\controllers\\boomeranger controller\\boomerangercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|e:\\boomeranger\\game\\modules\\map loader\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E488860-7421-4101-BDC9-A6DABCC2469C}|Boomeranger.csproj|solutionrelative:modules\\map loader\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BoomerangerController.cs",
-              "DocumentMoniker": "E:\\Boomeranger\\Game\\Modules\\Controllers\\Boomeranger Controller\\BoomerangerController.cs",
-              "RelativeDocumentMoniker": "Modules\\Controllers\\Boomeranger Controller\\BoomerangerController.cs",
-              "ToolTip": "E:\\Boomeranger\\Game\\Modules\\Controllers\\Boomeranger Controller\\BoomerangerController.cs",
-              "RelativeToolTip": "Modules\\Controllers\\Boomeranger Controller\\BoomerangerController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowD0AAAAJAAAAAAAAAA==",
+              "Title": "MapLoader.cs",
+              "DocumentMoniker": "E:\\Boomeranger\\Game\\Modules\\Map Loader\\MapLoader.cs",
+              "RelativeDocumentMoniker": "Modules\\Map Loader\\MapLoader.cs",
+              "ToolTip": "E:\\Boomeranger\\Game\\Modules\\Map Loader\\MapLoader.cs",
+              "RelativeToolTip": "Modules\\Map Loader\\MapLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-28T10:36:54.1Z",
+              "WhenOpened": "2026-11-28T10:43:50.775Z",
               "EditorCaption": ""
             }
           ]
